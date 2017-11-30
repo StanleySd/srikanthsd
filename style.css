@@ -1,0 +1,30 @@
+body {
+	
+background-image: url("http://www.soflomobilegeeks.com/uploads/1/0/5/3/105387377/17b-iphone-17a-office-why-soflo-mobile-computer-geeks-is-your-best-solution-to-fix-your-laptop-blog_orig.jpg");
+}
+
+.navbar-brand {
+font-size:29px;
+font-weight:bold;
+}
+
+.navbar {
+	
+background-color: #2C3E50;
+border: 0px solid green;
+}
+.navbar-nav {
+	margin-top:0px;
+	
+}
+#sri {
+	color:white;
+	font-weight:bold;
+}
+#sri:hover {
+	background-color:darkGreen;
+}
+a.hai {
+	color:white;
+	}
+	
