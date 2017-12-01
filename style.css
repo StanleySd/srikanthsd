@@ -29,9 +29,9 @@ a.hai {
 	}
 footer .fa {
   padding: 20px;
- size: 30px;
+  font-size:20px;
   width: 50px;
-  border-radius:50%;
+  border-radius:70%;
   text-align: center;
   text-decoration: none;
   margin-left: 32%;
@@ -48,7 +48,7 @@ footer .fa {
 
 .fa-twitter {
   background: #55ACEE;
-  color: white;
+  color: #ffff;
 }
 
 .fa-google {
@@ -57,7 +57,21 @@ footer .fa {
 }
 
 .world {
-	color: white;
+	color: #ffff;
 	text-align:center;
 	margin-left:0%;
+}
+#footer {
+	background-color: #2C3E50;
+	bottom: 0%;
+	position:absolute;
+	width:100%;
+	
+}
+
+footer a  {
+	color: #ffff;
+}
+footer a:hover {
+	color: lightGrey;
 }
