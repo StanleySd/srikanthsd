@@ -29,7 +29,8 @@ header{
     margin: 0%;
 }
 .navbar-brand {
-    font-family:monospace;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Black Ops One', cursive;
     font-size: 31px;
     font-weight:bold;
     display: inline-block;
