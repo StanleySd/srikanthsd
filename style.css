@@ -1,77 +1,157 @@
-body {
-	
-background-image: url("http://www.soflomobilegeeks.com/uploads/1/0/5/3/105387377/17b-iphone-17a-office-why-soflo-mobile-computer-geeks-is-your-best-solution-to-fix-your-laptop-blog_orig.jpg");
-}
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
 
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+header{
+    padding: 0%;
+    margin: 0%;
+}
 .navbar-brand {
-font-size:29px;
-font-weight:bold;
-}
+    font-family:monospace;
+    font-size: 31px;
+    font-weight:bold;
+    display: inline-block;
+    
+    }
+    
+    .navbar {
+        
+    background-color: rgb(11, 131, 91);
+    border: 0px solid rgb(9, 17, 9);
+    }
+    .navbar-nav {
+        margin-top:0px;
+        
+    }
+    ul {
+        display: inline-block;
+    }
+    #sri {
+        color:white;
+        font-weight:bold;
+    }
+    #sri:hover {
+        background-color:rgb(14, 22, 14);
+    }
+    a.hai {
+        color:white;
+        }
+    .stan { 
+        
+        position: absolute;
+        top: 20%;
+        width: 100%;
+        
+    }
+    .welcome{
+      font-family:Courier New, Courier, monospace;
+      color: #13E8E9;
+      font-size: 50px;
+      text-align: center;
+      font-weight: 0;
+      }
+      .construction{
+        text-align: center;
+        color: rgb(2, 110, 47);
+        font-family:Courier New, Courier, monospace;
+        font-size: 20px;
+        font-weight:bolder;
+        margin-top: 60px;
 
-.navbar {
-	
-background-color: #2C3E50;
-border: 0px solid green;
-}
-.navbar-nav {
-	margin-top:0px;
-	
-}
-#sri {
-	color:white;
-	font-weight:bold;
-}
-#sri:hover {
-	background-color:darkGreen;
-}
-a.hai {
-	color:white;
-	}
-footer .fa {
-  padding: 20px;
-  font-size:20px;
-  width: 50px;
-  border-radius:70%;
-  text-align: center;
-  text-decoration: none;
-  margin-left: 32%;
-}
+      }
+html,body{ 
 
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: #ffff;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.world {
-	color: #ffff;
-	text-align:center;
-	margin-left:0%;
-}
-#footer {
-	background-color: #2C3E50;
-	bottom: 0%;
-	position:absolute;
 	width:100%;
+    height:100%;
 	
 }
 
-footer a  {
-	color: #ffff;
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-footer a:hover {
-	color: lightGrey;
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
 }
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #01070c;
+  background-image: url('https://wallpaperscraft.com/image/sky_stars_light_dark_61737_2560x1440.jpg');
+
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+
