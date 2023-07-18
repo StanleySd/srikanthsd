@@ -24,10 +24,14 @@ li{list-style:none}
 
 /* ---- base ---- */
 
+@media screen and (max-width: 1680px)
+#wrapper {
+  padding: 10rem 2rem;
+}
+
 header{
     padding: 0%;
     margin: 0%;
-    align-content: center;
 }
 .navbar-brand {
     font-family: 'Audiowide', cursive;
