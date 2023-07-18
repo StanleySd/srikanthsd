@@ -24,7 +24,6 @@ li{list-style:none}
 
 /* ---- base ---- */
 
-@media screen and (max-width: 1680px)
 #wrapper {
   padding: 10rem 2rem;
 }
